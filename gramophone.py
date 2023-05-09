@@ -83,6 +83,7 @@ def get_album_id(input_str):
     # Fetch the corresponding album ID based on the RFID tag
     for album in data["spotify"]["albums"]:
         if sorted(album["rfid"]) == sorted(input_str):
+            print("Album: " + album["title"])
             return album["album_id"]
 
 main()
