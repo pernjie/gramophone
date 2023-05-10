@@ -1,0 +1,19 @@
+{
+	"spotify": {
+		"client_id": <CLIENT_ID>,
+		"client_secret": <CLIENT_SECRET>,
+		"device_id": <DEVICE_ID>,
+		"albums": [
+			{
+				"title" : "Rumours",
+				"rfid": <RFID_ID>,
+				"album_id": "1bt6q2SruMsBtcerNVtpZB"
+			},
+			{
+				"title" : "Since I Left You",
+				"rfid": <RFID_ID>,
+				"album_id": "3GBnNRYsxBfEeMSMmTpJ25"
+			}
+		]
+	}
+}
